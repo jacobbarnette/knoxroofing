@@ -1,48 +1,63 @@
 .header {
-  background-color: #f2f2f2;
-  padding: 10px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
 }
 
-.header nav ul {
+.nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.navItems {
   list-style-type: none;
   display: flex;
-  gap: 20px;
+  padding: 0;
 }
 
-.header nav ul li {
-  margin: 0;
+.navItem {
+  margin: 0 10px;
 }
 
-.header nav ul li a {
-  text-decoration: none;
-  color: #333;
-  font-weight: 600;
-  padding: 8px 12px;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
-}
-
-.header nav ul li a:hover {
-  background-color: #ddd;
-}
-
-.logo h1 {
-  margin: 0;
-  font-size: 20px;
-  color: #333;
-}
-
-.ribbon {
-  background-color: #e91e63;
-  color: #fff;
-  padding: 5px 15px;
-  font-weight: bold;
-  border-radius: 3px;
-}
-
-.ribbon span {
+.ribbon svg {
+  width: 16px;
+  height: 16px;
+  fill: #fff;
   margin-right: 5px;
+}
+
+.horizontalBar {
+  width: 100%;
+  height: 4em; /* Adjust the height as needed */
+  position: relative;
+  background: linear-gradient(-45deg, black 20%, white 20%, white 21%, red 10%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.horizontalBar span {
+  color: white;
+  font-weight: bold;
+}
+.redBar {
+  margin-left: 65em;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: white;
+  font-weight: bold;
+  height: 100%; /* Ensure the redBar div takes up the full height of the horizontalBar */
+}
+
+.phone {
+
+  display: flex;
+  align-self: center;
+}
+
+.spacer {
+  margin-left: 10em;
 }
