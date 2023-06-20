@@ -43,7 +43,7 @@
   font-weight: bold;
 }
 .redBar {
-  margin-left: 65em;
+  margin-left: 68em;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -53,11 +53,16 @@
 }
 
 .phone {
-
   display: flex;
   align-self: center;
 }
 
 .spacer {
-  margin-left: 10em;
+  margin-left: 5em;
+}
+
+.header{
+  text-align: left;
+  margin: 0;
+  font-size:
 }
