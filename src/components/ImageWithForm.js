@@ -15,10 +15,14 @@ const ImageWithForm = () => {
           height={200}
         />
       </div>
-      <Tagline />
-      <div className="absolute top-4 right-20 h-50 w-1/4  m-2 py-5 flex items-center justify-center">
-        <div className="p-4  h-full w-full bg-white opacity-95">
-          <RoofingForm />
+      <div className="flex px-20">
+        <div className="absolute top-20 m-2 py-5 pl-5 items-center justify-center left-20 w-full">
+          <Tagline />
+        </div>
+        <div className="absolute top-4 right-20 pr-5 h-50 w-1/4  m-2 py-5 flex items-center justify-center">
+          <div className="p-4  h-full w-full bg-white opacity-95">
+            <RoofingForm />
+          </div>
         </div>
       </div>
     </div>
