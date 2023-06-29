@@ -20,7 +20,7 @@ const ImageWithForm = () => {
         <div className="absolute top-20  py-5 items-center justify-center  w-full">
           <Tagline />
         </div>
-        <div className="absolute top-4 right-20 pr-5  h-50 w-1/4  m-2 py-5 flex items-center justify-center">
+        <div className="absolute top-4 right-20 pr-5  h-50 w-1/3  m-2 py-5 flex items-center justify-center">
           <div className="p-4  h-full w-full bg-white opacity-95">
             <RoofingForm />
           </div>
